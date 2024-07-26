@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Ordenar_cliente"
+    android:background="@drawable/lista_de_productos"
+  >
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="110dp"
+        android:text="Tu Carrito"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:fontFamily="@font/adamscript"
+        android:textSize="60dp"
+        android:textColor="@color/cafe_oscuro"
+        />
+
+
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="_________________________________________________"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView9"
+        android:textColor="@color/cafe_oscuro"/>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView2"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="16dp"
+        app:cardBackgroundColor="@color/white"
+        app:cardCornerRadius="10dp"
+        app:cardElevation="6dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textView10">
+
+        <pl.droidsonroids.gif.GifImageView
+            android:id="@+id/gifImageView"
+            android:layout_width="40dp"
+            android:layout_height="30dp"
+            android:layout_gravity="start"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginTop="30dp"
+            android:src="@drawable/icons8_shopping_cart" />
+        <TextView
+            android:id="@+id/TvProducto"
+            style="@style/titutlospequeños_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="5dp"
+            android:layout_marginStart="45sp"
+            android:text="Croassant"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/Tvprecio"
+            style="@style/titutlospequeños_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="60dp"
+            android:text="$2.500" />
+
+        <TextView
+            android:id="@+id/Tvcantidad"
+            style="@style/titutlospequeños"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="36dp"
+            android:text="Cantidad"
+            />
+
+        <TextView
+            android:id="@+id/Tvnum_cantidad"
+            style="@style/titutlospequeños_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="150dp"
+            android:layout_marginTop="35dp"
+            android:text="1"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/btnAumentar"
+            android:layout_width="30dp"
+            android:layout_height="38dp"
+            android:layout_marginStart="200dp"
+            android:layout_marginTop="26dp"
+            android:padding="5dp"
+            android:text="+"
+            android:backgroundTint="@color/cafe_semioscuro"
+            android:textColor="@color/crema"
+
+            />
+        <TextView
+            android:id="@+id/Tvnum_cantidad_1"
+            style="@style/titutlospequeños_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="247dp"
+            android:layout_marginTop="32dp"
+            android:text="1"
+            android:textSize="18sp" />
+        <Button
+            android:id="@+id/btnDisminuir"
+            android:layout_width="30dp"
+            android:layout_height="38dp"
+            android:layout_marginStart="270dp"
+            android:layout_marginTop="26dp"
+            android:padding="5dp"
+            android:text="-"
+            android:textStyle="bold"
+            android:backgroundTint="@color/cafe_semioscuro"
+            android:textColor="@color/crema"
+
+            />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/baseline_delete_24"
+            android:layout_marginTop="35dp"
+            android:layout_marginStart="315dp"/>
+
+
+    </androidx.cardview.widget.CardView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

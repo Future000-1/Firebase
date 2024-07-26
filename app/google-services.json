@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "159110935309",
+    "project_id": "pan-pan-df1bf",
+    "storage_bucket": "pan-pan-df1bf.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:159110935309:android:61680c65853b0005623644",
+        "android_client_info": {
+          "package_name": "com.example.pan_pan"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCkSj04iGbnNr7uH5xCmQ4ifC4rNH0A3Ss"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

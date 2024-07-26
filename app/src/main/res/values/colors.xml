@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="cafe_oscuro">#965E08</color>
+    <color name="cafe_semioscuro">#CB932C</color>
+    <color name="cafe_clarito">#E5BB62</color>
+    <color name="crema">#F8F7EE</color>
+    <color name="crema1">#F7F6ED</color>
+    <color name="fab_color">#CB932C</color>
+</resources>

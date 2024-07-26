@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+
+        android:id="@+id/nav_inicio"
+        android:icon="@drawable/baseline_store_24"
+        android:title="@string/nav_inicio"
+        app:showAsAction="withText"/>
+
+    <item
+
+        android:id="@+id/nav_pedidos"
+        android:icon="@drawable/carsh"
+        android:title="@string/nav_pedidos"
+        app:showAsAction="withText"/>
+
+    <item
+
+        android:id="@+id/nav_ubicación"
+        android:icon="@drawable/baseline_location_pin_24"
+        android:title="@string/nav_ubicación"
+        app:showAsAction="withText" />
+
+    <item
+
+        android:id="@+id/nav_perfil"
+        android:icon="@drawable/perfil"
+        android:title="@string/nav_perfil"
+        app:showAsAction="withText"/>
+
+
+</menu>

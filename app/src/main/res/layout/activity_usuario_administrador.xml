@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Usuario_Administrador"
+    android:background="@drawable/prueba_usuario_view"
+    >
+
+
+    <Button
+        android:id="@+id/button_usuario"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginVertical="20dp"
+        android:adjustViewBounds="true"
+        android:backgroundTint="#98600A"
+        android:fontFamily="@font/poppins_medium"
+        android:text="Soy Cliente"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/button_administrador"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button_administrador"
+        android:layout_width="350dp"
+        android:layout_height="65dp"
+        android:layout_marginBottom="260dp"
+        android:backgroundTint="@color/cafe_semioscuro"
+        android:fontFamily="@font/poppins_medium"
+        android:text="   Soy Administrador"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:textColor="@color/black"
+        />
+
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/gifImageView"
+        android:layout_width="38dp"
+        android:layout_height="38dp"
+        android:layout_gravity="start"
+
+        android:layout_marginTop="12dp"
+        android:src="@drawable/icons8_system_administrator"
+        app:layout_constraintEnd_toEndOf="@+id/button_administrador"
+        app:layout_constraintHorizontal_bias="0.068"
+        app:layout_constraintStart_toStartOf="@+id/button_administrador"
+        app:layout_constraintTop_toTopOf="@+id/button_administrador" />
+
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/gifImageView2"
+        android:layout_width="38dp"
+        android:layout_height="38dp"
+        android:layout_gravity="start"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginTop="12dp"
+        android:src="@drawable/icons8_user"
+        app:layout_constraintEnd_toEndOf="@+id/button_usuario"
+        app:layout_constraintHorizontal_bias="0.034"
+        app:layout_constraintStart_toStartOf="@+id/button_usuario"
+        app:layout_constraintTop_toTopOf="@+id/button_usuario" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

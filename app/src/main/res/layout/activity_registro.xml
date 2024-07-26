@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/registro__1_"
+    android:orientation="vertical"
+    tools:context=".Registro">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="345dp"
+        android:layout_height="390dp"
+        android:layout_marginHorizontal="35dp"
+        android:layout_marginBottom="128dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+
+        <EditText
+            android:id="@+id/edtNombre"
+            style="@style/Bordes_edits"
+            android:layout_width="300dp"
+            android:layout_height="45dp"
+            android:layout_marginHorizontal="15dp"
+            android:layout_marginVertical="25dp"
+            android:drawableStart="@drawable/baseline_account_circle_24"
+            android:hint="Nombre"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/edtEmail"
+            style="@style/Bordes_edits"
+            android:layout_width="300dp"
+            android:layout_height="45dp"
+            android:layout_marginHorizontal="15dp"
+            android:layout_marginBottom="24dp"
+            android:drawableStart="@drawable/baseline_email_24"
+            android:hint="Correo Electronico"
+            android:inputType="textEmailAddress" />
+
+        <EditText
+            android:id="@+id/edtPhone"
+            style="@style/Bordes_edits"
+            android:layout_width="300dp"
+            android:layout_height="45dp"
+            android:layout_marginHorizontal="15dp"
+            android:layout_marginBottom="24dp"
+            android:drawableStart="@drawable/baseline_call_24"
+            android:hint="Telefono"
+
+            android:inputType="phone" />
+
+        <EditText
+            android:id="@+id/edtPassword"
+            style="@style/Bordes_edits"
+            android:layout_width="300dp"
+            android:layout_height="45dp"
+            android:layout_marginHorizontal="15dp"
+            android:drawableStart="@drawable/baseline_lock_24"
+            android:hint="Contraseña"
+            android:inputType="textPassword" />
+
+        <Button
+            android:id="@+id/btnRegistrar"
+            style="@style/buton_cafe_semiclarito"
+            android:layout_width="165dp"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="80dp"
+            android:layout_marginVertical="15dp"
+            android:text="Registrate"
+
+            />
+
+        <TextView
+            android:id="@+id/tienes_cuenta"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppins_medium"
+            android:text="¿Ya tienes una cuenta?"
+            android:textAlignment="center"
+            android:textColor="@color/cafe_oscuro"
+            android:textSize="18sp"
+            android:textStyle="bold"
+
+            />
+
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

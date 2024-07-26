@@ -1,0 +1,39 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Pan_pan" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+
+    <style name="Theme.Pan_pan" parent="Base.Theme.Pan_pan" />
+
+
+    <style name="buton_cafe_oscuro" parent="ShapeAppearanceOverlay.Material3.Button">
+        <item name="android:background">@drawable/button_cafe_oscuro</item>
+        <item name="backgroundTint">@null</item>
+        <item name="fontFamily">@font/poppins_medium</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/crema</item>
+
+    </style>
+
+
+    <style name="buton_cafe_semiclarito" parent="ShapeAppearanceOverlay.Material3.Button">
+        <item name="android:background">@drawable/buton_cafe_semiclarito</item>
+        <item name="backgroundTint">@null</item>
+        <item name="fontFamily">@font/poppins_medium</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/crema</item>
+
+    </style>
+
+    <style name="buton_cafe_clarito" parent="ShapeAppearanceOverlay.Material3.Button">
+        <item name="android:background">@drawable/button_cafe_clarito</item>
+        <item name="backgroundTint">@null</item>
+        <item name="fontFamily">@font/poppins_medium</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/cafe_oscuro</item>
+        <item name="android:textStyle">bold</item>
+
+    </style>
+</resources>
